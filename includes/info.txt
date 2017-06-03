@@ -1,0 +1,5 @@
+#this directory contains important stuff don’t change anything.
+
+#Alias.csv = a csv file that contains all saved commands
+#csvDel.py = a python script to delete commands from alias.csv (i gave up on php).
+
