@@ -1,5 +1,5 @@
 # Alias
-A module for the wifi Pineapple that lets the user save and execute commands on the wifi pineapple mark6.
+A module for the wifi Pineapple mark6 that lets the user save and execute commands.
 https://www.wifipineapple.com/
 
 <strong> Install </strong>
