@@ -5,8 +5,8 @@ import sys
 import os
 
 
-csv_file = "/sd/modules/Alias/includes/Saved_Commands.csv"
-csv_tmp_file = "/sd/modules/Alias/includes/Saved_Commands-tmp.csv"
+csv_file = os.path.dirname(sys.argv[0]) + "/Saved_Commands.csv"
+csv_tmp_file = os.path.dirname(sys.argv[0]) + "/Saved_Commands-tmp.csv"
 command_to_delete = str(sys.argv[1])
 
 
