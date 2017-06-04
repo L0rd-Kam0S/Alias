@@ -1,7 +1,16 @@
 <?php namespace pineapple;
 
+
+if (file_exists("/pineapple/modules/Alias/includes/csvDel.py")) {
+  $GLOBALS["CSV_File"] = "/pineapple/modules/Alias/includes/Saved_Commands.csv";
+  $GLOBALS["CSV_Delete_Script"] = "python /pineapple/modules/Alias/includes/csvDel.py";
+
+} else {
   $GLOBALS["CSV_File"] = "/sd/modules/Alias/includes/Saved_Commands.csv";
-  $GLOBALS["CSV_Delete_Script"] = "python /sd/modules/Alias/includes/csvDel.py ";
+  $GLOBALS["CSV_Delete_Script"] = "python /sd/modules/Alias/includes/csvDel.py";
+}
+
+
 
 
 class Alias extends Module
